@@ -20,7 +20,7 @@ const linkClass = ({isActive}) =>
               </NavLink>
               <div className="md:ml-auto">
                 <div className="flex space-x-8">
-                  <NavLink to="/home" className={linkClass}>Home</NavLink>
+                  <NavLink to="/" className={linkClass}>Home</NavLink>
                   <NavLink to="/job" className={linkClass}>Job</NavLink>
                   <NavLink to="/Add job" className={linkClass}>Add Job</NavLink>
                 </div>

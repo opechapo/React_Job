@@ -19,6 +19,7 @@ function Hero  ({title= "Become a react Dev.", subtitle= "Find the React job tha
       </div>
 
     </section>
+    
   )
 }
 
