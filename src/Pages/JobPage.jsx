@@ -1,6 +1,7 @@
 import React from "react";
 import { FaArrowLeft, FaMapMarker } from "react-icons/fa";
 import { Link, useLoaderData, useParams } from "react-router-dom";
+import {toast} from 'react-toastify';
 
 const JobPage = () => {
     const { id } = useParams();
