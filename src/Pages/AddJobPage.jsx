@@ -1,7 +1,9 @@
 import { useState } from "react"
 import { useNavigate } from "react-router-dom";
+import { toast } from "react-toastify";
 
-const AddJobPage = () => {
+
+const AddJobPage = ({addJobSubmit}) => {
   const [title, setTitle]=useState("");
   const [type, setType] = useState("Full Time");
   const [location, setLocation] = useState("");
@@ -34,8 +36,8 @@ const AddJobPage = () => {
 
     addJobSubmit(newJob);
 
-    GiToaster.success("Job added successfully")
-    return navigate ("./jobs")
+    toast.success("Job added successfully")
+    return navigate ("/jobs")
   }
 
 

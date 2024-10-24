@@ -37,6 +37,8 @@ const EditJobPage = ({ updateJobSubmit }) => {
       },
     };
 
+    
+
     updateJobSubmit(updatedJob);
 
     toast.success('Job Updated Successfully');
